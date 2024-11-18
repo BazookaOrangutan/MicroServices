@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: user-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ms
+    username: postgres
+    password: 142536
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+server:
+  port: 8082
