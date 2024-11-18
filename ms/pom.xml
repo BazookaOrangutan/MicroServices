@@ -12,6 +12,7 @@
         <module>eureka-server</module>
         <module>car-service</module>
         <module>user-service</module>
+        <module>api-gateway</module>
     </modules>
 
     <properties>

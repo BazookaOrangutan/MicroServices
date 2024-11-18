@@ -1,10 +1,8 @@
 package org.example.carservice.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
+import org.apache.catalina.User;
 
 import java.util.UUID;
 
@@ -16,4 +14,5 @@ public class Car {
     private UUID id;
     private String color;
     private String model;
+    private UUID userId;
 }
